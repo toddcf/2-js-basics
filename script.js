@@ -25,5 +25,10 @@ var job, isMarried;
 job = "teacher";
 isMarried = false;
 
-console.log(name + " is " + age + " years old and works as a " + job +".");
+console.log(name + " is " + age + " years old and works as a " + job + ".");
 console.log("If you were to say that he is married, that statement would be " + isMarried + ".");
+
+age = "thirty-six";
+job = "driver";
+
+console.log(name + " is " + age + " years old and works as a " + job + ".");
