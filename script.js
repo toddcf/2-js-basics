@@ -51,6 +51,9 @@ var ageJohn = 30;
 var ageMark = 30;
 
 ageJohn = ageMark = (3 + 5) * 4 - 6;
+
+ageJohn++;
+ageJohn = ageJohn + 1;
 console.log("John is " + ageJohn);
 console.log("Mark is " + ageMark);
 
