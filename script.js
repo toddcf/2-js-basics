@@ -65,9 +65,9 @@ console.log("Mark is " + ageMark);
 
 var name = "John";
 var age = 26;
-var isMarried = "yes";
+var isMarried = true;
 
-if (isMarried === "yes") {
+if (isMarried) {
 	console.log(name + " is married!");
 }
 else {
