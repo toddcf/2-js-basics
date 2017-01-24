@@ -111,3 +111,21 @@ else if ((age > 65) && (age <= 123)) {
 else if (age > 123) {
 	console.log(name + " is dead.");
 }
+
+
+
+var job = "teacher";
+
+switch(job) {
+	case "teacher":
+		console.log(name + " teaches kids.");
+		break;
+	case "driver":
+		console.log(name + " drives a cab.");
+		break;
+	case "cop":
+		console.log(name + " helps fight crime.");
+		break;
+	default:
+		console.log(name + " does something else.");
+}
