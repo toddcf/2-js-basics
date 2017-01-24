@@ -116,6 +116,8 @@ else if (age > 123) {
 
 var job = "teacher";
 
+job = prompt("What is John's job?");
+
 switch(job) {
 	case "teacher":
 		console.log(name + " teaches kids.");
