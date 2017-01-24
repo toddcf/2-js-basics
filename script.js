@@ -42,7 +42,7 @@ alert(name + " is " + age + " years old and works as a " + job + ".");
 
 // Operators
 
-var now = 2017;
+/*var now = 2017;
 var birthYear = now - 26;
 birthYear = now - 26 * 2;
 console.log(birthYear);
@@ -59,5 +59,21 @@ ageMark *= 2;
 
 console.log("John is " + ageJohn);
 console.log("Mark is " + ageMark);
+*/
+
+// If/Else Statements
+
+var name = "John";
+var age = 26;
+var isMarried = "yes";
+
+if (isMarried === "yes") {
+	console.log(name + " is married!");
+}
+else {
+	console.log(name + " will hopefully get married soon.");
+}
+
+
 
 
