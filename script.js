@@ -14,6 +14,7 @@ console.log(fullAge);
 */
 
 // Variables 2:
+/*
 var name = "John";
 var age = 26;
 
@@ -37,3 +38,11 @@ var lastName = prompt("What is the last name?");
 console.log(lastName);
 
 alert(name + " is " + age + " years old and works as a " + job + ".");
+*/
+
+// Operators
+
+var now = 2017;
+var birthYear = now - 26;
+birthYear = now - 26 * 2;
+console.log(birthYear);
