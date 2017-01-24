@@ -63,6 +63,7 @@ console.log("Mark is " + ageMark);
 
 // If/Else Statements
 
+/*
 var name = "John";
 var age = 26;
 var isMarried = true;
@@ -73,7 +74,16 @@ if (isMarried) {
 else {
 	console.log(name + " will hopefully get married soon.");
 }
+*/
 
+// Boolean Logic & Switch Statements
 
+var age = 11;
 
+if ((age < 20) && (age > 12)) {
+	console.log("John is a teenager.");
+}
+else {
+	console.log("John is not a teenager.");
+}
 
