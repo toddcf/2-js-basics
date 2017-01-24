@@ -78,12 +78,36 @@ else {
 
 // Boolean Logic & Switch Statements
 
-var age = 11;
+var name = "John";
+var age = 124;
 
-if ((age < 20) && (age > 12)) {
-	console.log("John is a teenager.");
+if (age < 1) {
+	console.log(name + " is a baby.");
 }
-else {
-	console.log("John is not a teenager.");
+else if ((age >= 1) && (age <= 4)) {
+	console.log(name + " is a toddler.");
 }
-
+else if ((age > 4) && (age <= 7)) {
+	console.log(name + " is a little kid.");
+}
+else if ((age > 7) && (age <= 12)) {
+	console.log(name + " is a kid.");
+}
+else if ((age > 12) && (age <= 19)) {
+	console.log(name + " is a teenager.");
+}
+else if ((age > 19) && (age <= 30)) {
+	console.log(name + " is a young adult.");
+}
+else if ((age > 30) && (age <= 40)) {
+	console.log(name + " is an adult.");
+}
+else if ((age > 40) && (age <= 65)) {
+	console.log(name + " is middle-aged.");
+}
+else if ((age > 65) && (age <= 123)) {
+	console.log(name + " is a senior citizen.");
+}
+else if (age > 123) {
+	console.log(name + " is dead.");
+}
