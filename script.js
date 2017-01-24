@@ -32,3 +32,6 @@ age = "thirty-six";
 job = "driver";
 
 console.log(name + " is " + age + " years old and works as a " + job + ".");
+
+var lastName = prompt("What is the last name?");
+console.log(lastName);
