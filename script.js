@@ -46,3 +46,12 @@ var now = 2017;
 var birthYear = now - 26;
 birthYear = now - 26 * 2;
 console.log(birthYear);
+
+var ageJohn = 30;
+var ageMark = 30;
+
+ageJohn = ageMark = (3 + 5) * 4 - 6;
+console.log("John is " + ageJohn);
+console.log("Mark is " + ageMark);
+
+
