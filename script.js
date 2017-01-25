@@ -77,7 +77,7 @@ else {
 */
 
 // Boolean Logic & Switch Statements
-
+/*
 var name = "John";
 var age = 124;
 
@@ -131,3 +131,34 @@ switch(job) {
 	default:
 		console.log(name + " does something else.");
 }
+*/
+
+// Coding Challenge
+
+var johnAge = 25
+var johnHeight = 176
+
+var peterAge = 26
+var peterHeight = 160
+
+var annieAge = 23
+var annieHeight = 155
+
+// height + (age * 5)
+
+if (((johnHeight + (johnAge * 5)) > ((peterHeight + (peterAge * 5)))) && ((johnHeight + (johnAge * 5)) > ((annieHeight + (annieAge * 5))))) {
+	console.log("John wins!");
+}
+else if (((peterHeight + (peterAge * 5)) > ((johnHeight + (johnAge * 5)))) && ((peterHeight + (peterAge * 5)) > ((annieHeight + (annieAge * 5))))) {
+	console.log("Peter wins!");
+}
+else if (((annieHeight + (annieAge * 5)) > ((johnHeight + (johnAge * 5)))) && ((annieHeight + (annieAge * 5)) > ((peterHeight + (peterAge * 5))))) {
+	console.log("Annie wins!");
+}
+
+
+
+
+
+
+
