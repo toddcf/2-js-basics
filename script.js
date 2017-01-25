@@ -265,7 +265,14 @@ console.log("John's new job is " + john.job + ".");
 console.log(john);
 
 
+var jane = new Object();
+jane.name = "Jane";
+jane.lastName = "Smith";
+jane["yearOfBirth"] = 1969;
+jane["job"] = "retired";
+jane["isMarried"] = true;
 
+console.log(jane);
 
 
 
