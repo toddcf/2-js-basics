@@ -135,6 +135,7 @@ switch(job) {
 
 // Coding Challenge
 
+/*
 var johnAge = 25
 var johnHeight = 176
 
@@ -174,6 +175,18 @@ else if ((peterScore === annieScore) && (peterScore > johnScore)) {
 else {
 	console.log("Something must be wrong in the universe. Nobody won. How is that possible?");
 }
+*/
 
+// Functions
 
+function calculateAge (yearOfBirth) {
+	var age = 2017 - yearOfBirth;
+	return age;
+}
 
+var ageJohn = calculateAge(1990);
+var ageMike = calculateAge(1969);
+var ageAnnie = calculateAge(2000);
+console.log("John is " + ageJohn + " years old.");
+console.log("Mike is " + ageMike + " years old.");
+console.log("Annie is " + ageAnnie + " years old.");
