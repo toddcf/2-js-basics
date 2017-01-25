@@ -230,3 +230,10 @@ john.shift();
 console.log(john);
 
 alert(john.indexOf("Smith"));
+
+if (john.indexOf("teacher") === -1) {
+	console.log("John is NOT a teacher.");
+}
+else {
+	console.log("John is a teacher.");
+}
