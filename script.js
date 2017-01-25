@@ -215,6 +215,7 @@ yearsUntilRetirement("Annie", 2000);
 
 // Arrays
 
+/*
 var names = ["John", "Jane", "Mark"];
 var years = new Array(1990, 1969, 1948);
 
@@ -237,3 +238,38 @@ if (john.indexOf("teacher") === -1) {
 else {
 	console.log("John is a teacher.");
 }
+*/
+
+// Objects
+
+var john = {
+	name: "John",
+	lastName: "Smith",
+	yearOfBirth: 1990,
+	job: "teacher",
+	isMarried: false
+};
+
+console.log(john);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
