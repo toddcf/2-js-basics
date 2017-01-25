@@ -179,6 +179,7 @@ else {
 
 // Functions
 
+/*
 function calculateAge (yearOfBirth) {
 	var age = 2017 - yearOfBirth;
 	return age;
@@ -208,12 +209,19 @@ function yearsUntilRetirement(name, year) {
 yearsUntilRetirement("John", 1990);
 yearsUntilRetirement("Mike", 1940);
 yearsUntilRetirement("Annie", 2000);
-// console.log(name + " has " + years + " years until retirement.");
+*/
 
+// Statements and Expressions
 
+// Arrays
 
+var names = ["John", "Jane", "Mark"];
+var years = new Array(1990, 1969, 1948);
 
+console.log(names[0]);
+console.log(years);
 
+var john = ["John", "Smith", 1990, "teacher", false];
 
 
 
