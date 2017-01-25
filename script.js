@@ -251,6 +251,7 @@ var john = {
 };
 
 console.log(john.lastName);
+console.log(john["lastName"]);
 
 
 
