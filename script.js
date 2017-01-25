@@ -138,26 +138,39 @@ switch(job) {
 var johnAge = 25
 var johnHeight = 176
 
-var peterAge = 26
-var peterHeight = 160
+var peterAge = 25
+var peterHeight = 176
 
-var annieAge = 23
-var annieHeight = 155
+var annieAge = 25
+var annieHeight = 176
 
 // height + (age * 5)
 
-if (((johnHeight + (johnAge * 5)) > ((peterHeight + (peterAge * 5)))) && ((johnHeight + (johnAge * 5)) > ((annieHeight + (annieAge * 5))))) {
-	console.log("John wins!");
-}
-else if (((peterHeight + (peterAge * 5)) > ((johnHeight + (johnAge * 5)))) && ((peterHeight + (peterAge * 5)) > ((annieHeight + (annieAge * 5))))) {
-	console.log("Peter wins!");
-}
-else if (((annieHeight + (annieAge * 5)) > ((johnHeight + (johnAge * 5)))) && ((annieHeight + (annieAge * 5)) > ((peterHeight + (peterAge * 5))))) {
-	console.log("Annie wins!");
-}
+var johnScore = johnHeight + (johnAge * 5);
+var peterScore = peterHeight + (peterAge * 5);
+var annieScore = annieHeight + (annieAge * 5);
 
-
-
+if ((johnScore > peterScore) && (johnScore > annieScore)) {
+	console.log("John wins with a score of " + johnScore + "!");
+}
+else if ((peterScore > johnScore) && (peterScore > annieScore)) {
+	console.log("Peter wins with a score of " + peterScore + "!");
+}
+else if ((annieScore > johnScore) && (annieScore > peterScore)) {
+	console.log("Annie wins with a score of " + annieScore + "!");
+}
+else if ((johnScore === peterScore) && (johnScore > annieScore)) {
+	console.log("John and Peter tied with a score of " + johnScore + "!");
+}
+else if ((johnScore === annieScore) && (johnScore > peterScore)) {
+	console.log("John and Annie tied with a score of " + johnScore + "!");
+}
+else if ((johnScore === peterScore) && (peterScore === annieScore)) {
+	console.log("All three players tied with a score of " + johnScore + "!");
+}
+else if ((peterScore === annieScore) && (peterScore > johnScore)) {
+	console.log("Peter and Annie tied with a score of " + peterScore + "!");
+}
 
 
 
