@@ -185,8 +185,30 @@ function calculateAge (yearOfBirth) {
 }
 
 var ageJohn = calculateAge(1990);
-var ageMike = calculateAge(1969);
-var ageAnnie = calculateAge(2000);
 console.log("John is " + ageJohn + " years old.");
+
+var ageMike = calculateAge(1969);
 console.log("Mike is " + ageMike + " years old.");
+
+var ageAnnie = calculateAge(2000);
 console.log("Annie is " + ageAnnie + " years old.");
+
+
+function yearsUntilRetirement(name, year) {
+	var age = calculateAge(year);
+	var retirement = 65 - age;
+	console.log(name + " has " + retirement + " years until retirement.");
+}
+
+yearsUntilRetirement("John", 1990);
+yearsUntilRetirement("Mike", 1969);
+yearsUntilRetirement("Annie", 2000);
+// console.log(name + " has " + years + " years until retirement.");
+
+
+
+
+
+
+
+
