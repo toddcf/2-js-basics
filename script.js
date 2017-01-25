@@ -224,6 +224,8 @@ console.log(years);
 var john = ["John", "Smith", 1990, "teacher", false];
 
 john.push("blue");
+john.unshift("Mr.");
+john.pop();
 console.log(john);
 
 
