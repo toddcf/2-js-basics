@@ -141,8 +141,8 @@ var johnHeight = 176
 var peterAge = 25
 var peterHeight = 176
 
-var annieAge = 25
-var annieHeight = 176
+var annieAge = 23
+var annieHeight = 155
 
 // height + (age * 5)
 
@@ -171,7 +171,9 @@ else if ((johnScore === peterScore) && (peterScore === annieScore)) {
 else if ((peterScore === annieScore) && (peterScore > johnScore)) {
 	console.log("Peter and Annie tied with a score of " + peterScore + "!");
 }
-
+else {
+	console.log("Something must be wrong in the universe. Nobody won. How is that possible?");
+}
 
 
 
