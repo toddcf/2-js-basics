@@ -250,11 +250,19 @@ var john = {
 	isMarried: false
 };
 
+console.log(john);
 console.log(john.lastName);
 console.log(john["lastName"]);
 
 var xyz = "job";
 console.log(john[xyz]);
+
+john.lastName = "Miller";
+john["job"] = "programmer";
+console.log("John's new last name is " + john.lastName + ".");
+console.log("John's new job is " + john.job + ".");
+
+console.log(john);
 
 
 
