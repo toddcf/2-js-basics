@@ -242,6 +242,7 @@ else {
 
 // Objects
 
+/*
 var john = {
 	name: "John",
 	lastName: "Smith",
@@ -273,10 +274,23 @@ jane["job"] = "retired";
 jane["isMarried"] = true;
 
 console.log(jane);
+*/
 
+// Objects and Methods
 
+var john = {
+	name: "John",
+	lastName: "Smith",
+	yearOfBirth: 1990,
+	job: "teacher",
+	isMarried: false,
+	family: ["Jane", "Mark", "Bob"],
+	calculateAge: function() {
+		return 2017 - this.yearOfBirth;
+	}
+};
 
-
+console.log(john.calculateAge());
 
 
 
