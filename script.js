@@ -278,6 +278,8 @@ console.log(jane);
 
 // Objects and Methods
 
+// v1.0
+/*
 var john = {
 	name: "John",
 	lastName: "Smith",
@@ -292,7 +294,28 @@ var john = {
 
 console.log(john.calculateAge());
 
+var age = john.calculateAge();
 
+// Add the age data into the john object:
+john.age = age;
+console.log(john);
+*/
+
+// v2.0
+var john = {
+	name: "John",
+	lastName: "Smith",
+	yearOfBirth: 1990,
+	job: "teacher",
+	isMarried: false,
+	family: ["Jane", "Mark", "Bob"],
+	calculateAge: function() {
+		this.age = 2017 - this.yearOfBirth;
+	}
+};
+
+john.calculateAge();
+console.log(john);
 
 
 
