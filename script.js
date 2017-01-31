@@ -320,12 +320,22 @@ console.log(john);
 */
 
 // Loops & Iterations
+/*
 for (var i = 0; i < 10; i++) {
 	console.log(i + 1);
 }
+*/
 
+var names = ["John", "Jane", "Mary", "Mark", "Bob"];
 
+for (var i = 0; i < names.length; i++) {
+	console.log(names[i]);
+}
 
+// Reverse order:
+for (var i = names.length - 1; i >= 0; i--) {
+	console.log(names[i]);
+}
 
 
 
