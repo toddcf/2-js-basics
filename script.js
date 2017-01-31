@@ -302,6 +302,7 @@ console.log(john);
 */
 
 // v2.0
+/*
 var john = {
 	name: "John",
 	lastName: "Smith",
@@ -316,7 +317,12 @@ var john = {
 
 john.calculateAge();
 console.log(john);
+*/
 
+// Loops & Iterations
+for (var i = 0; i < 10; i++) {
+	console.log(i + 1);
+}
 
 
 
