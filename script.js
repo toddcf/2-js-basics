@@ -341,6 +341,7 @@ for (var i = names.length - 1; i >= 0; i--) {
 */
 
 // While Loop:
+/*
 var i = 0;
 while (i < names.length) {
 	console.log(names[i]);
@@ -360,16 +361,50 @@ for (var i = 1; i <= 5; i++) {
 	}
 	console.log(i);
 }
+*/
+
+// Coding Challenge 2:
+var birthYear = [1949, 1951, 1978, 1979, 1983, 2016];
+var ages = [];
+
+/*
+for (var i = 0; i < birthYear.length; i++) {
+	ages.push(2017 - birthYear[i]);
+}
+
+console.log(ages);
+
+for (var i = 0; i < ages.length; i++) {
+	if (ages[i] >= 18) {
+		console.log(true + ": " + ages[i]);
+	}
+	else {
+		console.log(false + ": " + ages[i]);
+	}
+}
+*/
 
 
+function printFullAge() {
+	for (var i = 0; i < birthYear.length; i++) {
+		ages.push(2017 - birthYear[i]);
+	}
+
+	console.log(ages);
+
+	for (var i = 0; i < ages.length; i++) {
+		if (ages[i] >= 18) {
+			console.log(true + ": " + ages[i]);
+		}
+		else {
+			console.log(false + ": " + ages[i]);
+		}
+	}	
+}
 
 
-
-
-
-
-
-
+var full_1 = printFullAge(birthYear);
+// var full_2 = printFullAge(birthYear);
 
 
 
