@@ -366,6 +366,7 @@ for (var i = 1; i <= 5; i++) {
 // Coding Challenge 2:
 var birthYear = [1949, 1951, 1978, 1979, 1983, 2016];
 var ages = [];
+var fullAge = [];
 
 /*
 for (var i = 0; i < birthYear.length; i++) {
@@ -394,12 +395,15 @@ function printFullAge() {
 
 	for (var i = 0; i < ages.length; i++) {
 		if (ages[i] >= 18) {
-			console.log(true + ": " + ages[i]);
+			fullAge.push(true);
 		}
 		else {
-			console.log(false + ": " + ages[i]);
+			fullAge.push(false);
 		}
-	}	
+	}
+
+	console.log(fullAge);
+	
 }
 
 
